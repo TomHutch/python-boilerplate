@@ -10,6 +10,7 @@ The project structure is set up to work with Pybuilder and PyCharm.
 ```bash
 git clone git@github.com:TomHutch/python-boilerplate.git <dirname>
 cd <dirname>
+rm -rf .git && git init
 pip install pybuilder
 direnv allow
 pyb
